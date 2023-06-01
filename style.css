@@ -67,12 +67,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: lightgray;
+    background-color: #808080;
     color: white;
 }
 
 .hero-content-left {
     margin-right: 35px;
+    min-width: 300px;
 }
 
 .hero-content-title-text {
@@ -88,9 +89,135 @@ body {
 }
 
 .hero-content-button {
-    background-color: #24a0ed;
+    background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
     border: none;
     padding: 5px 20px;
+}
+
+.rest-of-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.rest-of-page div {
+    flex: 1 1 auto;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 30px 50px;
+    max-width: 800px;
+    align-self: center;
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #F9FAF8 solid 2px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 815px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.information-title {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card-square {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 12px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-text {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: #808080;
+    font-weight: lighter;
 }
